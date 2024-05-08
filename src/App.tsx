@@ -1,12 +1,8 @@
-import React from 'react';
-import './App.css';
+import "./App.css";
+import { WrappedHello } from "./components/hoc";
 
 function App() {
-  return (
-    <div className="App">
-      hello world
-    </div>
-  );
+  return <WrappedHello />;
 }
 
 export default App;
